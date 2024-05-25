@@ -1,3 +1,4 @@
 baseURL = 'https://jiaojiao.life'
 languageCode = 'zh-cn'
 title = "JiaoJiao's Life"
+theme = 'ananke'
