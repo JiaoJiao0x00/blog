@@ -1,4 +1,32 @@
 baseURL = 'https://jiaojiao.life'
-languageCode = 'zh-cn'
+languageCode = 'zh-CN'
+languageName = '简体中文'
+defaultContentLanguage = 'zh-CN'
+hasCJKLanguage = true
 title = "JiaoJiao's Life"
 theme = 'LoveIt'
+
+[author]
+    name = "JiaoJiao"
+    email = "iaouing1024@outlook.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 3
+
+[markup]
+  [markup.highlight]
+    noClasses = false
